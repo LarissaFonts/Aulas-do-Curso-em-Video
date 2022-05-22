@@ -1,0 +1,6 @@
+j = input("digite algo: ")
+print("o tipo primitivo é", type(j))
+print('É alfanumérico?:', (j.isalnum()))
+print('Contém somente números?:', (j.isnumeric()))
+print('É composto somente por letras maiúsculas?:', (j.isupper()))
+print('E por letras minuscúlas?', (j.islower()))
